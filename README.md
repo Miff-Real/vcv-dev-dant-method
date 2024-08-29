@@ -7,6 +7,9 @@ PC or migrate to a new PC, I will have a check list to ensure I don't forget any
 but it can also serve as a step-by-step guide for beginners that want to create their own VCV Rack
 plugin and who don't mind following my opinionated example.
 
+Note: this guide is written and verified on Windows 11, I have previously used most of the same
+steps on Windows 10 so I believe it should work there as well, but I cannot guarantee it.
+
 * Setup
   * [Step 1 - Install & Configure all the things](step_1.md)
   * [Step 2 - Git repository](step_2.md)
