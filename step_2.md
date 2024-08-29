@@ -37,8 +37,9 @@ plugin build environment.
 * In `MSys2.mingw64`, go to the new repo:
   * `cd ~/rack-dev/Fundamental`
   * The `makefile` defines a number of tasks for building the plugin, you can use tab completion to
-    see all the tasks available, type `make [tab][tab]`
-    * To build the plugin run `make dist`
+    see all the tasks available
+    * type `make [tab][tab]`
+  * To build the plugin run `make dist`
     * If the build environment is all setup correctly, when the build completes you should get a
       `dist` folder that contains a `Fundamental-2.6.0-win-x64.vcvplugin` file.
       * If you copy-paste this file into your VCV Rack `plugins-win-x64` folder, this will install
