@@ -22,8 +22,9 @@ You will also be able to clone existing plugin repositories with it should you w
 
 ## Test the plugin build process
 
-The VCV Fundamental modules are a plugin that is open source in a GitHub repository. This means we
-can clone that repo and use it to test our VCV Rack plugin build environment.
+The [VCV Fundamental](https://github.com/VCVRack/Fundamental) modules are a plugin that is open
+source in a GitHub repository. This means we can clone that repo and use it to test our VCV Rack
+plugin build environment.
 
 * First, create a new folder `rack-dev` in your MSys2 home directory to house any Git repos.
 * In GitHub Desktop, `File > Clone repository...`
@@ -59,7 +60,7 @@ can clone that repo and use it to test our VCV Rack plugin build environment.
 * You have two options:
   * Create a local repo using GitHub Desktop (and push it to github.com if you want to)
   * Or what I find easier is to create a new private repo on the site and then clone it locally
-    * Using this method also means GitHub can automatically create a `READNE`, `license` and
+    * Using this method also means GitHub can automatically create a `README.md`, `LICENSE.md` and
       `C++ .gitignore` file for you.
     * You should edit your `.gitignore` file to add:
       ```
