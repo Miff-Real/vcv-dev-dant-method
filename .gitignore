@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Rack
+/build
+/dist
+/plugin.so
+/plugin.dylib
+/plugin.dll
+.DS_Store
+
+# if you want to work on some code but not commit it to the repo yet, add a .wip extension to the
+# filename, you can override the syntax in VSC so that it still highlights the same
+*.wip
