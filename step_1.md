@@ -56,12 +56,12 @@
 * Now we can create a Windows Terminal profile for `MSys2.mingw64`:
   * Find the location where Scoop installed MSys2 and look for `msys2_shell.cmd`, right-click that
     file and select `Copy as path`
-  * Under `Settings`, click `Add a new profile`
+  * In Windows Terminal, under `Settings`, click `Add a new profile`
   * Paste the copied path into `Command line` and then add
     ` -defterm -here -no-start -mingw64 -shell bash`
     * My full Command line is
       `C:\Users\dant\scoop\apps\msys2\2024-05-07\msys2_shell.cmd -defterm -here -no-start -mingw64 -shell bash`
-  * Find the location of the msys2 filesystem, and then location your home directory within it,
+  * Find the location of the msys2 filesystem, and then locate your home directory within it,
     right-click the directory and select `Copy as path`
     * It is also useful to right-click your home directory and select `Pin to Quick access` so that
       you have a direct link to it in file explorer.
@@ -75,7 +75,7 @@
 
 * In your `MSys2.mingw64` home directory you will find a `.bashrc` file, you can open this file in
   Sublime Text to edit it. Add any aliases or other config you might want and save it. When you make
-  a change to your `.bashrc` file close your current terminal tab and open a new one for it to take
+  a change to your `.bashrc`, file close your current terminal tab and open a new one for it to take
   effect.
   * What sort of things to put in your `.bashrc` is a large topic, Google it...
     * Two specific aliases I use heavily are `alias ..="cd .."` & `alias l="ls -lF"`
@@ -150,3 +150,7 @@
   * Now you should have a `Rack-SDK` folder inside your MSys2 home directory, this folder should
     also have appeared in your VSCode workspace so you can have a browse of these files in VSCode.
   * The documentation for the SDK can be found at https://vcvrack.com/docs-v2/annotated
+
+---
+
+## [On to Step 2 >>](step_2.md)
