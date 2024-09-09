@@ -90,10 +90,12 @@
 
 ### Updating MSys2
 
-* Every time you install or update MSys2 you will also need to:
+* Every time you install (or install an updated) MSys2 you will also need to:
   * Update the `Command line` path in the Windows Terminal profile
   * Re-install all the Rack dependencies as above
   * Re-install Starship prompt, see below
+* You should try to keep MSys2.mingw64 and its packages up to date as well:
+  * Every two weeks or so run `pacman -Syu` twice
 
 ## Install a NerdFont
 
