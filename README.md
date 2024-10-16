@@ -1,5 +1,7 @@
 # VCV Rack Plugin Development - The DanT Method (on Windows 11)
 
+***Work In Progress***
+
 This repository documents every step involved in setting up the development environment and then
 editing code, committing changes, building the plugin and making a release for my VCV Rack plugin
 DanTModules. It exists so that if I take an extended break from development, or need to format my
